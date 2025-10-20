@@ -1,0 +1,6 @@
+/* TambahStok.css */
+.btn-sm {
+  border-radius: 6px !important; /* sudut sedikit rounded */
+  padding: 5px 12px !important; /* biar tombol agak rapat */
+  font-size: 13px; /* lebih kecil dari default */
+}

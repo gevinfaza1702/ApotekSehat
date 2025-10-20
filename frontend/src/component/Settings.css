@@ -1,0 +1,19 @@
+.icon-title {
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  vertical-align: middle;
+  color: #16a34a; /* emerald hijau */
+}
+h3 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #14532d;
+  border-bottom: 1px solid #e5e7eb;
+  padding-bottom: 5px;
+}

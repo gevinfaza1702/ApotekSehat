@@ -1,0 +1,110 @@
+.stok-container {
+  padding: 20px;
+}
+
+.alert {
+  border-radius: 8px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+.table {
+  margin-bottom: 0;
+}
+
+.table th {
+  font-size: 13px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #666;
+}
+
+.table td {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.table-danger {
+  background-color: #fff5f5 !important;
+}
+
+.btn-sm {
+  padding: 3px 6px;
+  font-size: 12px;
+}
+
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  max-width: 95%;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.stok-wrapper {
+  margin-left: 40px;   /* geser ke kiri */
+  margin-right: 20px;  /* beri sedikit ruang kanan */
+}
+
+.stok-wrapper h2 {
+  margin-bottom: 0;
+}
+
+.stok-wrapper .card {
+  border-radius: 10px;
+  overflow-x: auto; /* supaya tabel bisa di-scroll kalau kepanjangan */
+}
+
+.stok-wrapper table th,
+.stok-wrapper table td {
+  padding: 10px 14px;
+  vertical-align: middle;
+}
+
+.stok-wrapper .btn {
+  border-radius: 6px;
+}
+
+/* Modal khusus Detail Barang */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 999;
+}
+
+.modal-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  width: 450px;
+  max-width: 95%;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+}
+
+/* Badge biar stok dan expired lebih menarik */
+.badge {
+  font-size: 0.75rem;
+  padding: 5px 10px;
+  border-radius: 8px;
+}
