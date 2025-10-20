@@ -22,11 +22,5 @@
       "src": "/(.*)",
       "dest": "/frontend/dist/$1"
     }
-  ],
-  "outputDirectory": "frontend/dist",
-  "functions": {
-    "api/index.js": {
-      "maxDuration": 30
-    }
-  }
+  ]
 }
